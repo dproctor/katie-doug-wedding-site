@@ -7,9 +7,9 @@
         {%- for item in nav_items -%}
           {%- assign els = item | split: "|" -%}
           {%- if page.url == els[0] -%}
-            <li class="page-collection active-page"><a href="{{els[0]}}">{{els[1]}}</a></li>
+            <li class="page-collection active-page"><a href="{{ els[0] | relative_url }}">{{els[1]}}</a></li>
           {%- else -%}
-            <li class="page-collection"><a href="{{els[0]}}">{{els[1]}}</a></li>
+            <li class="page-collection"><a href="{{ els[0] | relative_url }}">{{els[1]}}</a></li>
           {%- endif -%}
         {%- endfor -%}
       </ul>
@@ -19,7 +19,7 @@
   </div>
   <div id="upper-logo">
     <h1 class="logo" data-content-field="site-title">
-      <a href="/">DOUG &amp; KATIE</a>
+      <a href="{{ "/" | relative_url }}">DOUG &amp; KATIE</a>
     </h1>
   </div>
   <div id="main-nav-container">
@@ -28,9 +28,9 @@
         {%- for item in nav_items -%}
           {%- assign els = item | split: "|" -%}
           {%- if page.url == els[0] -%}
-            <li class="page-collection active-page"><a href="{{els[0]}}">{{els[1]}}</a></li>
+            <li class="page-collection active-page"><a href="{{ els[0] | relative_url }}">{{els[1]}}</a></li>
           {%- else -%}
-            <li class="page-collection"><a href="{{els[0]}}">{{els[1]}}</a></li>
+            <li class="page-collection"><a href="{{ els[0] | relative_url }}">{{els[1]}}</a></li>
           {%- endif -%}
         {%- endfor -%}
       </ul>

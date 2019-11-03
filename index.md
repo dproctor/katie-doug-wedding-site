@@ -8,7 +8,7 @@ title: Home
   <div class="solid-background">
     <p>Norrie, Colorado</p>
 
-    <img id="dancing" src="/assets/img/dancing.png" alt="">
+    <img id="dancing" src="{{ "/assets/img/dancing.png" | relative_url }}" alt="">
     <p>June 20, 2020</p>
   </div>
   <br>
