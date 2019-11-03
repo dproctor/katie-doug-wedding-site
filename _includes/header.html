@@ -1,0 +1,40 @@
+<header id="header" class="clear">
+  {%- assign nav_items = "/|HOME /schedule/|SCHEDULE /setting/|SETTING
+  /photos/|PHOTOS /registry/|REGISTRY /faq/|FAQ " | split: " " -%}
+  <div id="mobile-nav-container">
+    <nav id="mobile-nav">
+      <ul>
+        {%- for item in nav_items -%}
+          {%- assign els = item | split: "|" -%}
+          {%- if page.url == els[0] -%}
+            <li class="page-collection active-page"><a href="{{els[0]}}">{{els[1]}}</a></li>
+          {%- else -%}
+            <li class="page-collection"><a href="{{els[0]}}">{{els[1]}}</a></li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    <div id="mobile-nav-menu-button">
+      MENU
+    </div>
+  </div>
+  <div id="upper-logo">
+    <h1 class="logo" data-content-field="site-title">
+      <a href="/">DOUG &amp; KATIE</a>
+    </h1>
+  </div>
+  <div id="main-nav-container">
+    <nav class="main-nav" data-content-field="navigation">
+      <ul>
+        {%- for item in nav_items -%}
+          {%- assign els = item | split: "|" -%}
+          {%- if page.url == els[0] -%}
+            <li class="page-collection active-page"><a href="{{els[0]}}">{{els[1]}}</a></li>
+          {%- else -%}
+            <li class="page-collection"><a href="{{els[0]}}">{{els[1]}}</a></li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    <div class="page-divider"></div>
+  </nav>
+</div>
+</header>
