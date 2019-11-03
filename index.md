@@ -4,14 +4,14 @@ title: Home
 ---
 
 <div style="text-align: center">
-  <p><em>are geting married</em></p>
+  <p><em><b>are geting married</b></em></p>
   <div class="solid-background">
     <p>Norrie, Colorado</p>
 
     <img id="dancing" src="/assets/img/dancing.png" alt="">
     <p>June 20, 2020</p>
   </div>
+  <br>
+  <div id="rsvp">RSVP</div>
 
 </div>
-
-<img id="rsvp" src="/assets/img/rsvp.png" alt="">
