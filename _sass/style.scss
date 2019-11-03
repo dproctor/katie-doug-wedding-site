@@ -5,7 +5,7 @@ $color-dark-gray: #c8c8c8;
 $color-gray: #f5f5f5;
 $color-white: #ffffff;
 
-#upper-logo, #main-nav-container, #mobile-nav-container, #mobile-nav #mobile-nav-menu-button, #footer-wrapper  {
+#upper-logo, #main-nav, #mobile-nav-container, #mobile-nav #mobile-nav-menu-button, #footer-wrapper  {
   width: 100%;
   text-align: center;
 }
@@ -14,7 +14,7 @@ $color-white: #ffffff;
     font-family: 'Stoke', serif;
     font-weight: bold;
 }
-.page-borders-thick #main-nav-container ul>li>a {
+.page-borders-thick #main-nav ul>li>a {
     border-bottom-width: 2px;
 }
 
@@ -29,37 +29,32 @@ $color-white: #ffffff;
 
 // Site navigation
 //// Main navigation
-#main-nav-container ul {
-  width: auto;
-  margin: auto;
-  background-color: $color-white;
-  padding: 0 32px;
-}
-#main-nav-container li {
-  float: left;
-  position: relative;
-  margin-left: 32px;
-  font-family: 'Raleway', sans-serif;
-}
-#main-nav-container nav {
-  float: left;
+#main-nav-container {
+  border-bottom: 1px solid $color-yellow;
+  line-height: 0.1em;
+  margin: 30px 0;
   width: 100%;
   text-align: center;
 }
-#main-nav-container nav, #main-nav-container ul, #main-nav-container li {
-  display: inline-block;
-  line-height: 1.6em;
-}
-#main-nav-container {
-  margin-top: 40px;
+#main-nav {
   color: $color-blue;
+  border-bottom: none;
 }
-#main-nav-container .page-divider {
-  line-height: 1.6em;
-  margin-top: -1.6em;
-  margin-bottom: 1.6em;
-  font-size: 12px;
+#main-nav span {
+  background: $color-white;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+  text-align: center;
+  border-bottom: none;
+  padding: 0 15px;
 }
+//#main-nav-container .page-divider {
+  //line-height: 1.6em;
+  //margin-top: -1.6em;
+  //margin-bottom: 1.6em;
+  //font-size: 12px;
+//}
 
 //// Mobile navigation
 #mobile-nav-container {
@@ -122,7 +117,7 @@ $color-white: #ffffff;
   border-color: $color-yellow;
   padding: 100px 100px 0;
   background-color: $color-white;
-  max-width: 800px;
+  max-width: 600px;
 }
 body {
   background-color: $color-gray;
@@ -146,9 +141,6 @@ body {
     padding: 0 17px;
   }
 }
-.page-divider {
-  border-bottom: 1px solid $color-yellow;
-}
 
 div {
   display: block;
@@ -159,12 +151,13 @@ div {
   width: 98%;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: 40px;
   opacity: 1;
   position: relative;
   color: $color-blue;
   font-family: 'Raleway', sans-serif;
+  text-align: justify;
 }
 @media only screen and (max-width: 1024px) {
   .content-wrapper {
@@ -195,9 +188,34 @@ div {
   color: $color-white;
 }
 
+#rsvp:hover {
+  opacity: 0.5;
+}
+
 #dancing {
   max-width: 80px;
   margin: 40px;
+}
+
+.content-wrapper a {
+  color: $color-yellow;
+}
+
+.content-wrapper iframe {
+  margin: 20px auto;
+  display: block;
+}
+
+.content-wrapper h1 {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px;
+}
+
+.divider {
+  border-bottom: 2px solid $color-yellow;
+  width: 80%;
+  margin: 40px auto;
 }
 
 // Footer

@@ -23,18 +23,18 @@
     </h1>
   </div>
   <div id="main-nav-container">
-    <nav class="main-nav" data-content-field="navigation">
-      <ul>
+    <nav id="main-nav" data-content-field="navigation">
         {%- for item in nav_items -%}
           {%- assign els = item | split: "|" -%}
           {%- if page.url == els[0] -%}
-            <li class="page-collection active-page"><a href="{{ els[0] | relative_url }}">{{els[1]}}</a></li>
+            <span class="page-collection active-page"><a href="{{ els[0] |
+                relative_url }}">{{els[1]}}</a></span>
           {%- else -%}
-            <li class="page-collection"><a href="{{ els[0] | relative_url }}">{{els[1]}}</a></li>
+            <span class="page-collection"><a href="{{ els[0] | relative_url
+                }}">{{els[1]}}</a></span>
           {%- endif -%}
         {%- endfor -%}
-      </ul>
     </nav>
-    <div class="page-divider"></div>
   </div>
+    <!--<div class="page-divider"></div>-->
 </header>
