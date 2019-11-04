@@ -12,6 +12,6 @@ title: Home
     <p>June 20, 2020</p>
   </div>
   <br>
-  <div id="rsvp">RSVP</div>
+  <a id="rsvp" href="{{ "/rsvp" | relative_url }}">RSVP</a>
 
 </div>

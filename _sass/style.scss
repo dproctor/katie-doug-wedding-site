@@ -207,6 +207,13 @@ div {
   margin: 0;
 }
 
+#rsvp-form td {
+  padding: 4px;
+}
+#rsvp-form input {
+  border: none;
+}
+
 // Footer
 #footer-wrapper {
   color: $color-dark-gray;
