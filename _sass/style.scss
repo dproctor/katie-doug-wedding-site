@@ -63,10 +63,10 @@ $color-white: #ffffff;
   transform: translateX(-50%);
 
 }
-#mobile-nav-container:hover {
+#mobile-nav-container.menu-active {
   top: 0;
 }
-#mobile-nav-container:hover ~ #upper-logo {
+#mobile-nav-container.menu-active ~ #upper-logo {
   margin-top: 10em;
 }
 #upper-logo {
