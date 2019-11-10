@@ -307,6 +307,7 @@ div {
   left: 50%;
   transform: translateX(-50%);
   display: inline-block;
+  border: 6px solid $border-color;
 }
 
 .registry-logo img {
