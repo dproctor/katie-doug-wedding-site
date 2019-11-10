@@ -11,14 +11,23 @@ special is that it is off-the-map! The cabins are remote and there is no
 cellphone service (the closest cell range is about 30 minutes down valley). We
 are also at elevation, 8,461 feet above sea level.
 
-<div class="divider"></div>
+  <div id="photo-container">
+    <img class="photo" src="{{ "/assets/img/kissing.jpg" | relative_url }}" alt="">
+    <img class="photo" src="{{ "/assets/img/looking-at-camera.jpg" | relative_url }}" alt="">
+    <img class="photo" src="{{ "/assets/img/looking-at-eachother.jpg" | relative_url }}" alt="">
+    <img class="photo" src="{{ "/assets/img/meadow-walking.jpg" | relative_url }}" alt="">
+    <img class="photo" src="{{ "/assets/img/mountains.jpg" | relative_url }}" alt="">
+    <img class="photo" src="{{ "/assets/img/windy.jpg" | relative_url }}" alt="">
+  </div>
+
+<div class="divider after-photo"></div>
 
 <h1> Getting there </h1>
 Norrie is 28 miles up the Frying Pan River Road from Basalt Colorado which is
 the nearest town and a good place to find housing for the wedding weekend (more
 on accommodation options below).
 
-<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d789189.4065382159!2d-106.52100298336654!3d39.40964462078632!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87402e952a6c9c27%3A0xa5a3798d72ff190d!2sNorrie%2C%20CO%2081642!5e0!3m2!1sen!2sus!4v1572832520290!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d197056.78550060297!2d-107.13180892652927!3d39.49163746041338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m5!1s0x87404cb55ee7be49%3A0x6bde4200af293bf6!2sBasalt%2C%20CO!3m2!1d39.368873099999995!2d-107.0328241!4m3!3m2!1d39.324708699999995!2d-106.6555894!5e0!3m2!1sen!2sus!4v1573372524726!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 Transportation will be provided from Basalt to the wedding venue (more on transportation below).
 
