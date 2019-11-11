@@ -42,13 +42,13 @@ permalink: /rsvp/
       </td>
       <td class="response">
         <input class="checkbox" type="checkbox" value="friday-evening" name="entry.1730510582"/>
-        <a href="">Friday evening welcome drinks</a> <br>
+        <a href="{{ "/schedule" | relative_url }}">Friday evening welcome drinks</a> <br>
         <input class="checkbox" type="checkbox" value="saturday-morning" name="entry.1730510582"/>
-        <a href="">Saturday morning activities</a> <br>
+        <a href="{{ "/schedule" | relative_url }}">Saturday morning activities</a> <br>
         <input class="checkbox" type="checkbox" value="wedding-ceremony" name="entry.1730510582"/>
-        <a href="">Wedding ceremony</a> <br>
+        <a href="{{ "/schedule" | relative_url }}">Wedding ceremony</a> <br>
         <input class="checkbox" type="checkbox" value="farewell-drinks" name="entry.1730510582"/>
-        <a href="">Farewell drinks</a>
+        <a href="{{ "/schedule" | relative_url }}">Farewell drinks</a>
       </td>
     </tr>
     <tr>
