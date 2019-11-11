@@ -6,9 +6,11 @@ $color-gray: #f5f5f5;
 $color-white: #ffffff;
 $color-dark-green: #1d5f33;
 $color-dark-green-transparent: #1d5f33bd;
+$color-dark-green-very-transparent: #1d5f3310;
 $color-brown: #402f08;
 $color-cream: #fff7e4;
 $color-offwhite: #fbfbf8;
+$color-brown-transparent: #402f081c;
 
 $text-color: $color-brown;
 $title-color: $color-dark-green;
@@ -231,6 +233,7 @@ div {
   font-size: 20px;
   padding: 10px 20px;
   color: $title-color;
+  outline: none;
 }
 
 .button:hover {
@@ -245,7 +248,23 @@ div {
 #rsvp-form {
   text-align: center;
 }
-
+#rsvp-form.submitted table {
+  background-color: $color-dark-green-very-transparent;
+}
+#rsvp-form.submitted input {
+  pointer-events: none;
+}
+#rsvp-form.submitted #submit-btn {
+  background-color: $color-dark-green-very-transparent;
+  content: "Thanks for your submission";
+  pointer-events: none;
+}
+#rsvp-form #submit-btn:after {
+  content: "Submit";
+}
+#rsvp-form.submitted #submit-btn:after {
+  content: "Thanks for your submission";
+}
 
 #dancing {
   max-width: 80px;
@@ -339,10 +358,16 @@ div {
   transition-duration: 0.2s;
   vertical-align: middle;
 }
-
+.checkbox:focus {
+  background-color: $color-brown-transparent;
+}
+.checkbox:hover {
+  background-color: $color-brown-transparent;
+}
 .checkbox:checked {
   background-color: $text-color;
 }
+
 .radio {
   height: 20px;
   width: 20px;
@@ -357,6 +382,12 @@ div {
   cursor: pointer;
   transition-duration: 0.2s;
   vertical-align: middle;
+}
+.radio:focus {
+  background-color: $color-brown-transparent;
+}
+.radio:hover {
+  background-color: $color-brown-transparent;
 }
 .radio:checked {
   background-color: $text-color;

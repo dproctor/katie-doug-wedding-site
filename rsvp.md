@@ -6,14 +6,11 @@ permalink: /rsvp/
 
 <h1> RSVP </h1>
 
-<script type="text/javascript">var submitted=false;</script>
-
-<iframe id="redirect" style="display:none;" onload="if(submitted) {window.location='{{ "/rsvp-confirmation" | relative_url }}';}">
-</iframe>
+<iframe name="redirect" style="display:none;"></iframe>
 
 <form id="submit" id="rsvp-form"
   action="https://docs.google.com/forms/d/e/1FAIpQLSfaJQ-a_ooQZixjnI5-R0dL7roAUrvGBeBaWIbaHy3sycgqlg/formResponse"
-  method="post" target="redirect" onsubmit="submitted=true;">
+  method="post" target="redirect" onsubmit="markFormAsSubmitted();">
   <table id="rsvp-table">
     <tr>
       <td class="prompt"> name </td>
@@ -79,5 +76,5 @@ permalink: /rsvp/
       </td>
     </tr>
   </table>
-  <input class="button" id="submit-btn" type="submit" value="Submit">
+  <button class="button" id="submit-btn" type="submit"></button>
 </form>
