@@ -71,7 +71,7 @@ $footer-font-color: $color-dark-green;
   color: $title-color;
   font-family: 'Raleway', sans-serif;
   transition: top 300ms;
-  top: -7.6em;
+  top: -124px;
   border-bottom: 4px solid $border-color;
   left: 50%;
   transform: translateX(-50%);
@@ -81,7 +81,7 @@ $footer-font-color: $color-dark-green;
   top: 0;
 }
 #mobile-nav-container.menu-active ~ #upper-logo {
-  margin-top: 7.6em; // should match mobile-nav-container.top
+  margin-top: 124px; // should match mobile-nav-container.top
 }
 #upper-logo {
   transition: margin-top 300ms;
@@ -220,10 +220,6 @@ div {
     }
 }
 
-.after-photo {
-  margin-top: 400px;
-}
-
 .button {
   display: inline-block;
   left: 50%;
@@ -242,7 +238,7 @@ div {
 }
 
 #rsvp {
-  margin: 400px 0 0 0;
+  margin: 460px 0 0 0;
   color: $title-color;
 }
 
@@ -275,6 +271,10 @@ div {
   border-bottom: 4px solid $border-color;
   width: 80%;
   margin: 40px auto;
+}
+
+.after-photo {
+  margin-top: 460px;
 }
 
 .google-map {

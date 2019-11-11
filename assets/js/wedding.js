@@ -4,7 +4,7 @@ function repositionRsvpButton() {
   var photo = document.getElementsByClassName("photo");
 
   if (afterPhoto.length && photo.length) {
-    afterPhoto[0].style.marginTop = photo[0].height + "px";
+    afterPhoto[0].style.marginTop = (photo[0].height + 60) + "px";
   }
 }
 
