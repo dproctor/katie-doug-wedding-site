@@ -177,7 +177,7 @@ div {
   animation-name: imageCrossFade;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: 12s;
+  animation-duration: 60s;
   animation-direction: alternate; /* not strictly necessary */
   border: 4px solid $border-color;
   position:absolute;
@@ -187,19 +187,19 @@ div {
   right: 0;
   margin: 0 auto;
   &:nth-of-type(1) {
-    animation-delay: 10s;
+    animation-delay: 50s;
   }
   &:nth-of-type(2) {
-    animation-delay: 8s;
+    animation-delay: 40s;
   }
   &:nth-of-type(3) {
-    animation-delay: 6s;
+    animation-delay: 30s;
   }
   &:nth-of-type(4) {
-    animation-delay: 4s;
+    animation-delay: 20s;
   }
   &:nth-of-type(5) {
-    animation-delay: 2s;
+    animation-delay: 10s;
   }
   &:nth-of-type(6) {
     animation-delay: 0s;
@@ -207,19 +207,24 @@ div {
 }
 
 @keyframes imageCrossFade {
-    /* distributing times evenly */
-    0% {
-        opacity: 1;
-    }
-    25% {
-        opacity: 0;
-    }
-    75% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 1;
+  }
+  8.333% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  91.667% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .button {
