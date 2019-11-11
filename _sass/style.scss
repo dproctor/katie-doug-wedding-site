@@ -224,11 +224,10 @@ div {
   margin-top: 400px;
 }
 
-#rsvp {
+.button {
   display: inline-block;
   left: 50%;
   cursor: pointer;
-  margin: 400px 0 0 0;
   background-color: $canvas-background-color;
   border: 4px solid $title-color;
   font-family: 'Stoke', serif;
@@ -238,9 +237,19 @@ div {
   color: $title-color;
 }
 
-#rsvp:hover {
+.button:hover {
   background-color: $color-dark-green-transparent;
 }
+
+#rsvp {
+  margin: 400px 0 0 0;
+  color: $title-color;
+}
+
+#rsvp-form {
+  text-align: center;
+}
+
 
 #dancing {
   max-width: 80px;
@@ -276,13 +285,82 @@ div {
   margin: 0;
 }
 
-#rsvp-form td {
-  padding: 4px;
+#rsvp-table {
+  border: 2px solid $border-color;
+  table-layout: fixed;
+  padding: 100px 0;
 }
-#rsvp-form input {
-  border: none;
+#rsvp-table tr {
+  border:none;
+  background: none;
+  vertical-align: top;
+}
+#rsvp-table td {
+  padding: 4px;
+  border:none;
+  padding: 15px 15px;
 }
 
+#rsvp-table .prompt {
+  text-align: right;
+  color: $title-color;
+  font-family: "Stoke", serif;
+  font-size: 18px;
+}
+
+#rsvp-table .response {
+  overflow: hidden;
+}
+
+#rsvp-table .text-input {
+  color: $text-color;
+  background: none;
+  border: none;
+  padding: 0;
+  border-bottom: 2px solid $text-color;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+#rsvp-table .text-input:focus {
+  outline: none;
+}
+.checkbox {
+  height: 20px;
+  width: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 2px solid $text-color;
+  //border-radius: 75px;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  vertical-align: middle;
+}
+
+.checkbox:checked {
+  background-color: $text-color;
+}
+.radio {
+  height: 20px;
+  width: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 2px solid $text-color;
+  //border-radius: 75px;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  vertical-align: middle;
+}
+.radio:checked {
+  background-color: $text-color;
+}
 // Footer
 .site-footer {
   border-color: $border-color;

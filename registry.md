@@ -3,6 +3,7 @@ layout: default
 title: Registry
 permalink: /registry/
 ---
+# Registry
 If you would like to bring a gift, we are registered at
 
   <a class="registry-logo" href="https://www.heathceramics.com/apps/giftregistry/registry/85317?shared_url=true">

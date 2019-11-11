@@ -18,6 +18,6 @@ title: Home
     <img class="photo" src="{{ "/assets/img/windy.jpg" | relative_url }}" alt="">
   </div>
   <br>
-  <a id="rsvp" href="{{ "/rsvp" | relative_url }}">RSVP</a>
+  <a id="rsvp" class="button" href="{{ "/rsvp" | relative_url }}">RSVP</a>
 
 </div>
