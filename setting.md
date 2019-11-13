@@ -3,7 +3,7 @@ layout: default
 title: Setting
 permalink: /setting/
 ---
-<h1> Norrie Colony </h1>
+<h1> Norrie </h1>
 Norrie is a rustic collection of cabins nestled in the White River National
 Forest. Katie grew spending a lot of time here at her family cabins, and has
 enjoyed introducing Doug to this special place. Part of what makes Norrie
@@ -11,24 +11,23 @@ special is that it is off-the-map! The cabins are remote and there is no
 cellphone service (the closest cell range is about 30 minutes down valley). We
 are also at elevation, 8,461 feet above sea level.
 
-  <div id="photo-container">
-    <img class="photo" src="{{ "/assets/img/kissing.jpg" | relative_url }}" alt="">
-    <img class="photo" src="{{ "/assets/img/looking-at-camera.jpg" | relative_url }}" alt="">
-    <img class="photo" src="{{ "/assets/img/looking-at-eachother.jpg" | relative_url }}" alt="">
-    <img class="photo" src="{{ "/assets/img/meadow-walking.jpg" | relative_url }}" alt="">
-    <img class="photo" src="{{ "/assets/img/mountains.jpg" | relative_url }}" alt="">
-    <img class="photo" src="{{ "/assets/img/windy.jpg" | relative_url }}" alt="">
+  <div id="photo-container" class="three-image">
+    <img class="photo" src="{{ "/assets/img/norrie-1.jpg" | relative_url }}" alt="">
+    <img class="photo" src="{{ "/assets/img/norrie-2.jpg" | relative_url }}" alt="">
+    <img class="photo" src="{{ "/assets/img/norrie-3.jpg" | relative_url }}" alt="">
   </div>
 
 <div class="divider after-photo"></div>
 
-<h1> Getting there </h1>
+<h1 id="getting-there" name="getting-there"> Getting there </h1>
 Norrie is 28 miles up the Frying Pan River Road from Basalt Colorado which is
 the nearest town and a good place to find housing for the wedding weekend (more
-on accommodation options below).
+on accommodation options below). Driving directions are
+[here](https://www.google.com/maps/dir/Basalt,+CO/Norrie,+CO+81642/@39.4177549,-106.7671121,12.33z/am=t/data=!4m19!4m18!1m10!1m1!1s0x87404cb55ee7be49:0x6bde4200af293bf6!2m2!1d-107.0328241!2d39.3688731!3m4!1m2!1d-106.8166912!2d39.366172!3s0x8740337e1fa78ad7:0xa55c09e96bf1333e!1m5!1m1!1s0x87402e952a6c9c27:0xa5a3798d72ff190d!2m2!1d-106.6555894!2d39.3247087!3e0?hl=en).
+Note that Google Maps often erroneously thinks Frying Pan River Road is closed.
+Don't be fooled! It is the best way to drive to Norrie.
 
-<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d197056.78550060297!2d-107.13180892652927!3d39.49163746041338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m5!1s0x87404cb55ee7be49%3A0x6bde4200af293bf6!2sBasalt%2C%20CO!3m2!1d39.368873099999995!2d-107.0328241!4m3!3m2!1d39.324708699999995!2d-106.6555894!5e0!3m2!1sen!2sus!4v1573372524726!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-
+<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1115552.14354815!2d-107.4300057680324!3d39.44625681829847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87402e952a6c9c27%3A0xa5a3798d72ff190d!2sNorrie%2C%20CO%2081642!5e0!3m2!1sen!2sus!4v1573673403967!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 Transportation will be provided from Basalt to the wedding venue (more on transportation below).
 
 There are a number of airport options for getting to/from the Basalt/Norrie area:
