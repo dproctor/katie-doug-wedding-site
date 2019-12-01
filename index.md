@@ -5,7 +5,7 @@ title: Home
 
 <div style="text-align: center">
   <div id="home-page-text">
-    <p>Katie &amp; Doug are getting married!</p>
+    <p>Katie and Doug are getting married!</p>
     <p class="green-text big-text">June 20, 2020</p>
     <p class="big-text">Norrie, Colorado</p>
   </div>
