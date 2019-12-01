@@ -53,25 +53,13 @@ permalink: /rsvp/
     </tr>
     <tr>
       <td class="prompt">
-        will you be on the <a href="{{ "/transportation/#getting-to-wedding" | relative_url }}">bus</a>?
+        Do you plan to take the <a href="{{ "/transportation/#getting-to-wedding" | relative_url }}">bus</a> to/from Norrie for the ceremony on Saturday?
       </td>
       <td class="response">
         <input class="radio" type="radio" value="yes" name="entry.841777812">
         yes
         <br>
         <input class="radio" type="radio" value="no" name="entry.841777812">
-        no
-      </td>
-    </tr>
-    <tr>
-      <td class="prompt">
-        <a href="{{ "/transportation/#carpool" | relative_url }}">carpool</a>?
-      </td>
-      <td class="response">
-        <input class="radio" type="radio" value="yes" name="entry.1993110218">
-        yes
-        <br>
-        <input class="radio" type="radio" value="no" name="entry.1993110218">
         no
       </td>
     </tr>
