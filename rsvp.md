@@ -13,13 +13,13 @@ permalink: /rsvp/
   method="post" target="redirect" onsubmit="markFormAsSubmitted();">
   <table id="rsvp-table">
     <tr>
-      <td class="prompt"> name </td>
+      <td class="prompt"> Your name </td>
       <td class="response">
         <input class="text-input" id="email" type="text" name="entry.1572100472">
       </td>
     </tr>
     <tr>
-      <td class="prompt"> coming? </td>
+      <td class="prompt"> Are you able to attend? </td>
       <td class="response">
         <input class="radio" type="radio" value="yes" name="entry.325870965">
         yes
@@ -30,7 +30,7 @@ permalink: /rsvp/
     </tr>
     <tr>
       <td class="prompt">
-        anyone else?
+        Name of your +1 (as indicated on invitation)?
       </td>
       <td class="response">
         <input class="text-input" id="number-attending" type="text" name="entry.1118413491">
@@ -38,13 +38,11 @@ permalink: /rsvp/
     </tr>
     <tr>
       <td class="prompt">
-        where can we expect you?
+        Which events will you be attending?
       </td>
       <td class="response">
         <input class="checkbox" type="checkbox" value="friday-evening" name="entry.1730510582"/>
         <a href="{{ "/schedule" | relative_url }}">Friday evening welcome drinks</a> <br>
-        <input class="checkbox" type="checkbox" value="saturday-morning" name="entry.1730510582"/>
-        <a href="{{ "/schedule" | relative_url }}">Saturday morning activities</a> <br>
         <input class="checkbox" type="checkbox" value="ceremony" name="entry.1730510582"/>
         <a href="{{ "/schedule" | relative_url }}">Ceremony and reception</a> <br>
         <input class="checkbox" type="checkbox" value="sunday-breakfast" name="entry.1730510582"/>
