@@ -66,5 +66,8 @@ permalink: /rsvp/
 </form>
 
 We would love to see your children and/or dogs at the Saturday morning
-activities and Sunday breakfast, but **we are unfortunately unable to accomodate
-children or pets at the ceremony and reception**. We recommend <a href="https://happytailsdogranch.com/" Happy Trails Dog Ranch</a> for a good doggy daycare option. We are unfamiliar with the valley's child daycare options but Aspen, Basalt, or Carbondale are all towns to search for good options.
+activities and Sunday breakfast, but **we are unfortunately unable to
+accomodate children or pets at the ceremony and reception**. We recommend <a
+href="https://happytailsdogranch.com/">Happy Trails Dog Ranch</a> for a good
+doggy daycare option. We are unfamiliar with the valley's child daycare options
+but Aspen, Basalt, or Carbondale are all towns to search for good options.

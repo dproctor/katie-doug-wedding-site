@@ -6,10 +6,13 @@ permalink: /setting/
 <h1> Norrie </h1>
 Norrie is a rustic collection of cabins surrounded by White River National
 Forest. Katie grew up spending a lot of time at her family's cabins and
-Doug has enjoyed hanging out at Norrie the past four years. Part of what makes
-Norrie special is that it is off-the-map! The cabins are remote and there is no
-cellphone service that far up valley (the closest cell range is about 30 minutes
-down valley towards Basalt). Norrie is also at elevation, 8,461 feet above sea level.
+has enjoyed introducing Doug to this special place. Norrie is also where Ted
+and Nancy White were married in 1982!
+
+Part of what makes Norrie special is that it is off-the-map! The cabins are
+remote and there is no cellphone service (the closest cell range is about 30
+minutes down valley towards Basalt). Norrie is also at elevation, 8,461 feet
+above sea level.
 
   <div id="photo-container" class="three-image">
     <img class="photo" src="{{ "/assets/img/norrie-1.jpg" | relative_url }}" alt="">
