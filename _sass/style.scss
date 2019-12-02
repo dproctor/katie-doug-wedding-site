@@ -4,22 +4,23 @@ $color-light-gray: #f8f8f8;
 $color-dark-gray: #c8c8c8;
 $color-gray: #f5f5f5;
 $color-white: #ffffff;
-$color-dark-green: #1d5f33;
-$color-dark-green-transparent: #1d5f33bd;
-$color-dark-green-very-transparent: #1d5f3310;
 $color-green: #03822d;
 $color-brown: #402f08;
 $color-cream: #fff7e4;
 $color-offwhite: #fbfbf8;
-$color-brown-transparent: #402f081c;
+$color-black-transparent: #0000001c;
+$color-black: #000000;
+$color-forest-green: #014317;
+$color-forest-green-transparent: #014317bd;
+$color-forest-green-very-transparent: #01431710;
 
-$text-color: $color-brown;
-$title-color: $color-dark-green;
-$canvas-background-color: $color-cream;
+$text-color: $color-black;
+$title-color: $color-black;
+$canvas-background-color: $color-white;
 $border-color: $color-white;
 $link-color: $color-blue;
 $body-background: $color-offwhite;
-$footer-font-color: $color-dark-green;
+$footer-font-color: $color-forest-green;
 
 #upper-logo, #main-nav, #mobile-nav-container, #mobile-nav #mobile-nav-menu-button, #footer-wrapper  {
   width: 100%;
@@ -27,12 +28,12 @@ $footer-font-color: $color-dark-green;
 }
 .logo a {
   color: $title-color;
-  font-family: 'Stoke', serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-weight: bold;
 }
 
 .green-text {
-  color: $color-green;
+  color: $color-forest-green;
 }
 .big-text {
   font-size: 28px;
@@ -47,27 +48,26 @@ $footer-font-color: $color-dark-green;
 
 .page-collection.active-page a {
   color: $text-color;
-  //border-bottom: 4px solid $border-color;
   font-weight: bold;
 }
 
 // Site navigation
 //// Main navigation
 #main-nav-container {
-  border-bottom: 4px solid $color-green;
+  border-bottom: 2px solid $color-black;
   line-height: 0.1em;
   margin: 30px 0;
   width: 100%;
   text-align: center;
 }
 #main-nav {
-  color: $color-green;
+  color: $color-black;
   border-bottom: none;
 }
 #main-nav span {
   background: $canvas-background-color;
   position: relative;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   margin: auto;
   text-align: center;
   border-bottom: none;
@@ -78,11 +78,11 @@ $footer-font-color: $color-dark-green;
 #mobile-nav-container {
   display: none;
   position: absolute;
-  color: $color-green;
-  font-family: 'Raleway', sans-serif;
+  color: $color-forest-green;
+  font-family: 'Noto Sans JP', sans-serif;
   transition: top 300ms;
   top: -148px;
-  border-bottom: 4px solid $color-green;
+  border-bottom: 2px solid $color-black;
   left: 50%;
   transform: translateX(-50%);
 
@@ -97,7 +97,7 @@ $footer-font-color: $color-dark-green;
   transition: margin-top 300ms;
 }
 #mobile-nav {
-  border-bottom: 4px solid $color-green;
+  border-bottom: 2px solid $color-black;
 }
 #mobile-nav ul {
   margin: 0;
@@ -128,7 +128,7 @@ $footer-font-color: $color-dark-green;
   border-color: $border-color;
   padding: 100px 100px 0;
   background-color: $canvas-background-color;
-  max-width: 600px;
+  max-width: 800px;
   width:100%
 }
 body {
@@ -159,7 +159,7 @@ div {
   opacity: 1;
   position: relative;
   color: $text-color;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   text-align: justify;
 }
 @media only screen and (max-width: 767px) {
@@ -175,6 +175,7 @@ div {
   padding: 10px;
   margin: auto;
   font-weight: bold;
+  color: $color-forest-green;
 }
 
 #photo-container {
@@ -185,7 +186,7 @@ div {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: alternate; /* not strictly necessary */
-  border: 4px solid $border-color;
+  border: none;
   position:absolute;
   top: 0;
   left: 0;
@@ -278,23 +279,24 @@ div {
   display: inline-block;
   left: 50%;
   cursor: pointer;
-  background-color: $canvas-background-color;
-  border: 4px solid $title-color;
-  font-family: 'Stoke', serif;
+  background-color: $color-forest-green;
+  font-family: 'Noto Sans JP', sans-serif;
   font-weight: bold;
   font-size: 20px;
   padding: 10px 20px;
   color: $title-color;
   outline: none;
+  color: $color-white;
+  border: none;
 }
 
 .button:hover {
-  background-color: $color-dark-green-transparent;
+  background-color: $color-forest-green-transparent;
 }
 
 #rsvp {
   margin: 460px 0 0 0;
-  color: $title-color;
+  color: $color-white;
 }
 
 #rsvp-form {
@@ -304,13 +306,13 @@ div {
   margin-bottom: 30px;
 }
 #rsvp-form.submitted table {
-  background-color: $color-dark-green-very-transparent;
+  background-color: $color-forest-green-very-transparent;
 }
 #rsvp-form.submitted input {
   pointer-events: none;
 }
 #rsvp-form.submitted #submit-btn {
-  background-color: $color-dark-green-very-transparent;
+  background-color: $color-forest-green-very-transparent;
   content: "Thanks for your submission";
   pointer-events: none;
 }
@@ -342,7 +344,7 @@ div {
 }
 
 .divider {
-  border-bottom: 4px solid $color-green;
+  border-bottom: 2px solid $color-black;
   width: 80%;
   margin: 40px auto;
 }
@@ -360,7 +362,7 @@ div {
 }
 
 #rsvp-table {
-  border: 2px solid $color-green;
+  border: 2px solid $color-forest-green;
   table-layout: fixed;
   padding: 100px 0;
 }
@@ -378,7 +380,7 @@ div {
 #rsvp-table .prompt {
   text-align: right;
   color: $text-color;
-  font-family: "Stoke", serif;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 18px;
 }
 
@@ -391,8 +393,8 @@ div {
   background: none;
   border: none;
   padding: 0;
-  border-bottom: 2px solid $color-green;
-  font-family: "Raleway", sans-serif;
+  border-bottom: 2px solid $color-forest-green;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 20px;
 }
 #rsvp-table .text-input:focus {
@@ -406,7 +408,6 @@ div {
   -o-appearance: none;
   appearance: none;
   border: 2px solid $text-color;
-  //border-radius: 75px;
   background: none;
   outline: none;
   cursor: pointer;
@@ -414,10 +415,10 @@ div {
   vertical-align: middle;
 }
 .checkbox:focus {
-  background-color: $color-brown-transparent;
+  background-color: $color-black-transparent;
 }
 .checkbox:hover {
-  background-color: $color-brown-transparent;
+  background-color: $color-black-transparent;
 }
 .checkbox:checked {
   background-color: $text-color;
@@ -431,7 +432,6 @@ div {
   -o-appearance: none;
   appearance: none;
   border: 2px solid $text-color;
-  //border-radius: 75px;
   background: none;
   outline: none;
   cursor: pointer;
@@ -439,18 +439,18 @@ div {
   vertical-align: middle;
 }
 .radio:focus {
-  background-color: $color-brown-transparent;
+  background-color: $color-black-transparent;
 }
 .radio:hover {
-  background-color: $color-brown-transparent;
+  background-color: $color-black-transparent;
 }
 .radio:checked {
   background-color: $text-color;
 }
 // Footer
 .site-footer {
-  border-color: $color-green;
-  border-width: 4px;
+  border-color: $color-black;
+  border-width: 2px;
 }
 #footer-wrapper {
   color: $footer-font-color;
@@ -468,10 +468,11 @@ div {
   margin-top: 10px;
   margin-bottom: 10px;
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  display: inline-block;
+  display: block;
   border: 6px solid $border-color;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .registry-logo img {

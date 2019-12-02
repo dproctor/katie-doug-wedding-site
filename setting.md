@@ -14,10 +14,13 @@ remote and there is no cellphone service (the closest cell range is about 30
 minutes down valley towards Basalt). Norrie is also at elevation, 8,461 feet
 above sea level.
 
-  <div id="photo-container" class="three-image">
-    <img class="photo" src="{{ "/assets/img/norrie-1.jpg" | relative_url }}" alt="">
-    <img class="photo" src="{{ "/assets/img/norrie-2.jpg" | relative_url }}" alt="">
+  <div id="photo-container" class="six-image">
+    <img class="photo" src="{{ "/assets/img/norrie-6.jpg" | relative_url }}" alt="">
+    <img class="photo" src="{{ "/assets/img/norrie-5.jpg" | relative_url }}" alt="">
+    <img class="photo" src="{{ "/assets/img/norrie-4.jpg" | relative_url }}" alt="">
     <img class="photo" src="{{ "/assets/img/norrie-3.jpg" | relative_url }}" alt="">
+    <img class="photo" src="{{ "/assets/img/norrie-2.jpg" | relative_url }}" alt="">
+    <img class="photo" src="{{ "/assets/img/norrie-1.jpg" | relative_url }}" alt="">
   </div>
 
 <div class="divider after-photo"></div>
