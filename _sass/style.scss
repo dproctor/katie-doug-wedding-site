@@ -28,7 +28,7 @@ $footer-font-color: $color-forest-green;
 }
 .logo a {
   color: $title-color;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Stoke', serif;
   font-weight: bold;
 }
 
@@ -341,6 +341,7 @@ div {
   text-transform: uppercase;
   text-align: center;
   margin: 20px;
+  color: $color-forest-green;
 }
 
 .divider {
