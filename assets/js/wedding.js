@@ -23,12 +23,15 @@ function makePhotosVisible() {
   }
 }
 
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
   var menuButton = document.getElementById('mobile-nav-container');
   menuButton.onclick = function() {
     menuButton.classList.toggle('menu-active');
   };
   repositionRsvpButton();
+});
+
+window.addEventListener('load', function() {
   makePhotosVisible();
 });
 
