@@ -30,7 +30,7 @@ permalink: /rsvp/
     </tr>
     <tr>
       <td class="prompt">
-        Name of your +1 (as indicated on invitation)?
+        Name of your +1 (as indicated on invitation)
       </td>
       <td class="response">
         <input class="text-input" id="number-attending" type="text" name="entry.1118413491">
