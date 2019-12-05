@@ -178,6 +178,12 @@ div {
   color: $color-forest-green;
 }
 
+.divider {
+  border-bottom: 2px solid $color-black;
+  width: 80%;
+  margin: 40px auto;
+}
+
 #photo-container {
   position: relative;
 }
@@ -194,6 +200,31 @@ div {
   right: 0;
   margin: 0 auto;
   opacity:0;
+  max-height: 500px;
+}
+
+.after-photo {
+  margin-top: 560px;
+}
+
+@media only screen and (max-width: 767px) {
+#photo-container img {
+  max-height: 260px;
+}
+
+.after-photo {
+  margin-top: 280px;
+}
+}
+
+@media only screen and (max-width: 321px) {
+#photo-container img {
+  max-height: 200px;
+}
+
+.after-photo {
+  margin-top: 220px;
+}
 }
 
 #photo-container.three-image img {
@@ -295,7 +326,6 @@ div {
 }
 
 #rsvp {
-  margin: 460px 0 0 0;
   color: $color-white;
 }
 
@@ -342,16 +372,6 @@ div {
   text-align: center;
   margin: 20px;
   color: $color-forest-green;
-}
-
-.divider {
-  border-bottom: 2px solid $color-black;
-  width: 80%;
-  margin: 40px auto;
-}
-
-.after-photo {
-  margin-top: 460px;
 }
 
 .google-map {
