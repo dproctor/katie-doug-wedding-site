@@ -20,7 +20,3 @@ window.addEventListener('load', function() {
   };
   makePhotosVisible();
 });
-
-window.addEventListener('resize', function() {
-  repositionRsvpButton();
-});
