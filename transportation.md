@@ -18,7 +18,7 @@ in Willits and from [The Basalt Mountain
 Inn](https://www.basaltmountaininn.com/) in Basalt. Please indicate in your RSVP
 whether or not you plan to use this transportation option.
 
-If you are staying at an Airbnb or another hotel that is not of the stops for
+If you are staying at an Airbnb or another hotel that is not on the stops for
 the bus going to the wedding venue, you are still welcome to take the bus. Make
 your way to either either [The Element
 Hotel](https://www.marriott.com/hotels/hotel-rooms/aseel-element-basalt-aspen/)
@@ -29,8 +29,10 @@ Basalt to catch the bus from town up to Norrie.
 
 If you're renting a car and have extra space and would be open to having other
 wedding guests contact you to hitch a ride to/from the airport, or if you're
-looking to hitch a ride, we have a shared Google spreadsheet <a
-href="https://docs.google.com/spreadsheets/d/1TypO89uOltNfsrTQDvkW1ROw6cpPm4N8XSqHf8gD0Do/edit?usp=sharing">here</a>.
+looking to hitch a ride, we have a shared <a
+href="https://docs.google.com/spreadsheets/d/1TypO89uOltNfsrTQDvkW1ROw6cpPm4N8XSqHf8gD0Do/edit?usp=sharing">Google
+spreadhsheet</a> where you can add your arrival and departure information.
+Please be aware that ubers and taxis are very limited in the valley.
 
 To the extent you're looking to carpool, please connect directly with other
 guests -- Doug and Katie won't be able to help coordinate carpooling.

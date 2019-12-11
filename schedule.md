@@ -6,4 +6,5 @@ permalink: /schedule/
 
 # Schedule
 
-Please check back closer to the wedding for a complete schedule.
+We anticipate an early afternoon ceremony on Saturday. Please check back in
+January for a more detailed weekend schedule.

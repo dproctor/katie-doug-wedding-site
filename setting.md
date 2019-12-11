@@ -7,7 +7,7 @@ permalink: /setting/
 Norrie is a rustic collection of cabins surrounded by White River National
 Forest. Katie grew up spending a lot of time at her family's cabins and
 has enjoyed introducing Doug to this special place. Norrie is also where Ted
-and Nancy White were married in 1982!
+and Nancy White were married in 1987!
 
 Part of what makes Norrie special is that it is off-the-map! The cabins are
 remote and there is no cellphone service (the closest cell range is about 30
@@ -83,16 +83,13 @@ does not block rooms, so book early. Located at <a
 href="https://www.google.com/maps/place/Basalt+Mountain+Inn/@39.3693244,-107.0323983,15z">220
 Midland Avenue, Basalt, CO 81621</a>. Contact: <a href="(970) 927-4747">(970)
 927-4747</a>.</li>
-<li>There may also be good Airbnb options in Basalt that are walking distance to The
-Basalt Mountain Inn where the bus will pick up guests.</li>
+<li>There may also be good Airbnb options in Basalt that are walking distance
+to The Basalt Mountain Inn where the bus will pick up guests or good Airbnb
+options in Willits that are walking distance to The Element Hotel.</li>
 <li><a href="https://www.google.com/maps/place/Aspen,+CO+81611/@39.1985427,-106.8717439,13z">Aspen</a> and <a
 href="https://www.google.com/maps/place/Snowmass,+CO+81654/@39.3328625,-106.996598,15z">Snowmass</a>
 are both fun places to stay and approximately 25 and 35 minutes from Basalt
-respectively. However, please note that our wedding bus will not be picking up
-from those locations. However, there are easy and frequent public bus
-transportation between Aspen, Snowmass, and Basalt.</li>
+respectively. Our wedding bus will not be picking up from those locations, but
+there are easy and frequent public transportation between Aspen, Snowmass, and
+Basalt.</li>
 </ul>
-For more information or questions about wedding transportation and/or public
-transportation in the valley or accommodations, please contact Connie Wood at
-<a href="tel:970-948-7011">(970) 948-7011</a> or at <a
-href="mailto:connieawood@yahoo.com">connieawood@yahoo.com</a>.

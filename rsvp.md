@@ -13,7 +13,7 @@ permalink: /rsvp/
   method="post" target="redirect" onsubmit="markFormAsSubmitted();">
   <table id="rsvp-table">
     <tr>
-      <td class="prompt"> Your name </td>
+      <td class="prompt"> Name(s) of Guests</td>
       <td class="response">
         <input class="text-input" id="email" type="text" name="entry.1572100472">
       </td>
@@ -26,14 +26,6 @@ permalink: /rsvp/
         <br>
         <input class="radio" type="radio" value="no" name="entry.325870965">
         no
-      </td>
-    </tr>
-    <tr>
-      <td class="prompt">
-        Name of your +1 (as indicated on invitation)
-      </td>
-      <td class="response">
-        <input class="text-input" id="number-attending" type="text" name="entry.1118413491">
       </td>
     </tr>
     <tr>
