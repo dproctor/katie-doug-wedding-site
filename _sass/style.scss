@@ -342,14 +342,13 @@ div {
   pointer-events: none;
 }
 #rsvp-form.submitted #submit-btn {
-  content: "Thanks for your submission";
   pointer-events: none;
 }
 #rsvp-form #submit-btn:after {
   content: "Submit";
 }
 #rsvp-form.submitted #submit-btn:after {
-  content: "Thanks for your submission";
+  content: "Thanks for your response";
 }
 
 #dancing {
