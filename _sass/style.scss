@@ -336,13 +336,12 @@ div {
   margin-bottom: 30px;
 }
 #rsvp-form.submitted table {
-  background-color: $color-forest-green-very-transparent;
+  display: none;
 }
 #rsvp-form.submitted input {
   pointer-events: none;
 }
 #rsvp-form.submitted #submit-btn {
-  background-color: $color-forest-green-very-transparent;
   content: "Thanks for your submission";
   pointer-events: none;
 }
