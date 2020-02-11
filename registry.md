@@ -4,8 +4,11 @@ title: Registry
 permalink: /registry/
 ---
 # Registry
+If you would like to bring a gift, we are registered at
 
-The biggest gift you can give is your presence at our ceremony, but to the
-extent you'd like to also contribute in material means, we are deeply
-appreciative. Please check back in January 2020 for more information on our
-registry.
+  <a class="registry-logo" href="https://www.heathceramics.com/apps/giftregistry/registry/85317?shared_url=true">
+    <img src="{{ "/assets/img/heath.jpg" | relative_url }}" alt="">
+  </a>
+  <a class="registry-logo" href="https://www.zola.com/registry/dougandkatie2020">
+    <img src="{{ "/assets/img/zola.jpg" | relative_url }}" alt="">
+  </a>
