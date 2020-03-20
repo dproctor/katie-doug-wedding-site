@@ -6,7 +6,7 @@ title: Home
 <div style="text-align: center">
   <div id="home-page-text">
     <p>Katie and Doug are getting married!</p>
-    <p class="blue-text big-text">Due to the coronavirus epidemic, we've decided to postpone our June 20, 2020 to September 2020. Date TBD</p>
+    <p class="blue-text big-text">Due to the coronavirus pandemic, we've decided to postpone our June 20, 2020 to September 2020. Date TBD</p>
     <p class="big-text">Norrie, Colorado</p>
   </div>
   <div id="photo-container" class="six-image">
