@@ -13,6 +13,7 @@ $color-black: #000000;
 $color-forest-green: #014317;
 $color-forest-green-transparent: #014317bd;
 $color-forest-green-very-transparent: #01431710;
+$color-notice-blue: #2173FB;
 
 $text-color: $color-black;
 $title-color: $color-black;
@@ -32,11 +33,15 @@ $footer-font-color: $color-forest-green;
   font-weight: bold;
 }
 
+.blue-text {
+  color: $color-notice-blue;
+}
+
 .green-text {
   color: $color-forest-green;
 }
 .big-text {
-  font-size: 28px;
+  font-size: 20px;
 }
 .page-borders-thick #main-nav ul>li>a {
     border-bottom-width: 2px;
