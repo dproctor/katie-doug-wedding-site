@@ -6,5 +6,6 @@ permalink: /schedule/
 
 # Schedule
 
-We anticipate an early afternoon ceremony on Saturday. Please check back in
-January for a more detailed weekend schedule.
+We anticipate hosting welcome drinks on Friday evening, an early afternoon ceremony on Saturday, and a farewell brunch on Sunday morning. 
+
+Please check back for a detailed schedule in late March / early April 2020!
