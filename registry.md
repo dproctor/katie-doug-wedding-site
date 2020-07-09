@@ -3,10 +3,8 @@ layout: default
 title: Registry
 permalink: /registry/
 ---
-# Registry
-The biggest gift you can give is your presence at our ceremony, but to the extent you'd like to also contribute in material means, we are deeply appreciative.
 
-If you would like to contribute a gift, we are registered at:
+The biggest gift you can give is your presence at our celebration, but to the extent you'd like to also contribute in material means, we are deeply appreciative. We have two gift registries:
   <br>
 <div>
   <a class="registry-logo" href="https://www.heathceramics.com/apps/giftregistry/registry/85317?shared_url=true">
