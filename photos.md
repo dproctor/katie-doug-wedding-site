@@ -9,14 +9,15 @@ permalink: /photos/
 
     <img src="{{ "/assets/img/01_Katie&DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/02_Katie&DougWedding.jpg" | relative_url }}">
+    <img src="{{ "/assets/img/021_Katie&DougWedding.jpg" | relative_url }}">
+    <img src="{{ "/assets/img/3_Katie&DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/03_Katie&DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/04_Katie&DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/05_Katie&DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/06_Katie&DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/06_Katie&DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/07_Katie&DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/08_Katie&DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/09_Katie&DougWedding.jpg" | relative_url }}">
+    <img src="{{ "/assets/img/4_Katie&DougWedding.jpg" | relative_url }}">
+    <img src="{{ "/assets/img/5_Katie&DougWedding.jpg" | relative_url }}">
+    <img src="{{ "/assets/img/6_Katie&DougWedding.jpg" | relative_url }}">
+    <img src="{{ "/assets/img/7_Katie&DougWedding.jpg" | relative_url }}">
+    <img src="{{ "/assets/img/8_Katie&DougWedding.jpg" | relative_url }}">
+    <img src="{{ "/assets/img/9_Katie&DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/10_Katie&DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/11_Katie&DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/12_Katie&DougWedding.jpg" | relative_url }}">
@@ -37,6 +38,6 @@ permalink: /photos/
     <img src="{{ "/assets/img/27_Katie&DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/28_Katie&DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/29_Katie&DougWedding.jpg" | relative_url }}">
-    
+
   </div>
 </div>
