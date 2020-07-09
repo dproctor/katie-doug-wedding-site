@@ -20,7 +20,7 @@ $title-color: $color-black;
 $canvas-background-color: $color-white;
 $border-color: $color-white;
 $link-color: $color-dark-gray;
-$body-background: $color-white;
+$body-background: $color-offwhite;
 $footer-font-color: $color-black;
 
 #upper-logo, #main-nav, #mobile-nav-container, #mobile-nav #mobile-nav-menu-button, #footer-wrapper  {
@@ -137,7 +137,7 @@ $footer-font-color: $color-black;
   border-style: solid;
   border-width: 2px;
   border-color: $border-color;
-  padding: 100px 100px 0;
+  padding: 20px 20px 0;
   background-color: $canvas-background-color;
   max-width: 800px;
   width:100%
@@ -165,7 +165,7 @@ div {
 
 // Content
 .content-wrapper {
-  margin-top: 60px;
+  margin-top: 20px;
   margin-bottom: 40px;
   opacity: 1;
   position: relative;
