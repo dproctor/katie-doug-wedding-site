@@ -18,5 +18,6 @@ title: Home
     <img class="photo" src="{{ "/assets/img/windy.jpg" | relative_url }}" alt="">
   </div>
   <br>
+  <p>  </p>
 
 </div>
