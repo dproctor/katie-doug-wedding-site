@@ -5,9 +5,8 @@ title: Home
 
 <div style="text-align: center">
   <div id="home-page-text">
-    <p>Katie and Doug are getting married!</p>
-    <p class="blue-text big-text">Due to the COVID-19 pandemic, we've decided to postpone our wedding, previously planned for June 20, 2020, to September 2020. Date TBD.</p>
-    <p class="big-text">Norrie, Colorado</p>
+    <p class="blue-text big-text">Katie and Doug got married</p>
+    <p>On June 20, 2020, Katie and Doug got married in a peaceful aspen grove in the hills overlooking Norrie, Colorado. It was just the two of them, and it was perfect. We're excited to celebrate with family and friends once it's safe to gather -- stay tuned for details!</p>
   </div>
   <div id="photo-container" class="six-image">
     <img class="photo" src="{{ "/assets/img/kissing.jpg" | relative_url }}" alt="">
@@ -18,6 +17,5 @@ title: Home
     <img class="photo" src="{{ "/assets/img/windy.jpg" | relative_url }}" alt="">
   </div>
   <br>
-  <a id="rsvp" class="button after-photo" href="{{ "/rsvp" | relative_url }}">RSVP</a>
 
 </div>
