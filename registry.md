@@ -12,7 +12,7 @@ If you would like to contribute a gift, we are registered at:
     <img src="{{ "/assets/img/heath.jpg" | relative_url }}" alt="">
   </a>
   <br>
-  <p style="text-align:center"> and </p>
+  <p style="text-align: center"> and </p>
   <br>
   <a class="registry-logo" href="https://www.zola.com/registry/dougandkatie2020">
     <img src="{{ "/assets/img/zola.jpg" | relative_url }}" alt="">
