@@ -21,7 +21,7 @@ $canvas-background-color: $color-white;
 $border-color: $color-white;
 $link-color: $color-blue;
 $body-background: $color-offwhite;
-$footer-font-color: $color-forest-green;
+$footer-font-color: $color-notice-blue;
 
 #upper-logo, #main-nav, #mobile-nav-container, #mobile-nav #mobile-nav-menu-button, #footer-wrapper  {
   width: 100%;
@@ -83,7 +83,7 @@ $footer-font-color: $color-forest-green;
 #mobile-nav-container {
   display: none;
   position: absolute;
-  color: $color-forest-green;
+  color: $color-black;
   font-family: 'Noto Sans JP', sans-serif;
   transition: top 300ms;
   top: -148px;
@@ -180,7 +180,7 @@ div {
   padding: 10px;
   margin: auto;
   font-weight: bold;
-  color: $color-forest-green;
+  color:  $color-black;
 }
 
 .divider {
