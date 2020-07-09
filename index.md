@@ -6,10 +6,10 @@ title: Home
 <div style="text-align: center">
   <div id="home-page-text">
 
-    <p class="blue-text big-text">Katie and Doug got married!</p>
+    <p class="blue-text big-text">We got married!</p>
 
-    <p class="black-text">On June 20, 2020, Katie and Doug got married in a beautiful grove of aspen trees in the hills overlooking Norrie, Colorado. It was just the two of them, and it was perfect. </p>
-    <p class="black-text">We're excited to celebrate with family and friends once it's safe to gather -- stay tuned for details!</p>
+    <p class="black-text">On June 20, 2020, we tied the knot on the mountain-side overlooking Norrie, Colorado. We exchanged our vows, just the two of us, in the middle of a grove of aspen trees. We're so thrilled and we're excited to share our happiness with family and friends once it's safe to gather -- stay tuned for details. We look forward to celebrating with you! </p>
+    
     <br>
     <img src="{{ "/assets/img/kd1.jpg" | relative_url }}">
 
