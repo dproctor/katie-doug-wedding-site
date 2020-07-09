@@ -33,6 +33,10 @@ $footer-font-color: $color-notice-blue;
   font-weight: bold;
 }
 
+.black-text {
+  color: $color-black;
+}
+
 .blue-text {
   color: $color-notice-blue;
 }
@@ -374,7 +378,7 @@ div {
   text-transform: uppercase;
   text-align: center;
   margin: 20px;
-  color: $color-forest-green;
+  color: $color-black;
 }
 
 .google-map {
