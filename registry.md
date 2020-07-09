@@ -3,7 +3,7 @@ layout: default
 title: Registry
 permalink: /registry/
 ---
-# Registry
+
 The biggest gift you can give is your presence at our celebration, but to the extent you'd like to also contribute in material means, we are deeply appreciative. We have two gift registries:
   <br>
 <div>
