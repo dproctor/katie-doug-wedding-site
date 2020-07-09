@@ -8,6 +8,7 @@ The biggest gift you can give is your presence at our ceremony, but to the exten
 
 If you would like to contribute a gift, we are registered at:
   <br>
+<div>
   <a class="registry-logo" href="https://www.heathceramics.com/apps/giftregistry/registry/85317?shared_url=true">
     <img src="{{ "/assets/img/heath.jpg" | relative_url }}" alt="">
   </a>
@@ -17,3 +18,4 @@ If you would like to contribute a gift, we are registered at:
   <a class="registry-logo" href="https://www.zola.com/registry/dougandkatie2020">
     <img src="{{ "/assets/img/zola.jpg" | relative_url }}" alt="">
   </a>
+</div>
