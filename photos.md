@@ -4,6 +4,8 @@ title: Photos
 permalink: /photos/
 ---
 
+<p> Photos by Otto Schulze of <a href="https://www.jamesandschulze.com">James and Schulze</a>.</p>
+
 <div class="row">
   <div class="column">
 
