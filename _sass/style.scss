@@ -90,7 +90,7 @@ $footer-font-color: $color-black;
   color: $color-black;
   font-family: 'Noto Sans JP', sans-serif;
   transition: top 300ms;
-  top: -148px;
+  top: -80px;
   border-bottom: 2px solid $color-black;
   left: 50%;
   transform: translateX(-50%);
@@ -100,9 +100,10 @@ $footer-font-color: $color-black;
   top: 0;
 }
 #mobile-nav-container.menu-active ~ #upper-logo {
-  margin-top: 148px; // should match mobile-nav-container.top
+  margin-top: 80px; // should match mobile-nav-container.top
 }
 #upper-logo {
+  padding-top: 25px;
   transition: margin-top 300ms;
 }
 #mobile-nav {
