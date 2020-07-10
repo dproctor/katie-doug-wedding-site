@@ -10,13 +10,12 @@ permalink: /photos/
   <div class="column">
 
     <img src="{{ "/assets/img/01_Katie_DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/02_Katie_DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/19_Katie_DougWedding.jpg" | relative_url }}">
+    <img src="{{ "/assets/img/84_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/4_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/11_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/3_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/03_Katie_DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/60_Katie_DougWedding.jpg" | relative_url }}">
+    <img src="{{ "/assets/img/66_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/61_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/62_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/63_Katie_DougWedding.jpg" | relative_url }}">
@@ -41,9 +40,6 @@ permalink: /photos/
     <img src="{{ "/assets/img/55_KatieDougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/54_KatieDougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/17_Katie_DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/66_Katie_DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/67_Katie_DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/16_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/18_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/68_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/69_Katie_DougWedding.jpg" | relative_url }}">
@@ -53,8 +49,6 @@ permalink: /photos/
     <img src="{{ "/assets/img/42_KatieDougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/20_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/23_Katie_DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/69_Katie_DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/71_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/72_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/73_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/43_KatieDougWedding.jpg" | relative_url }}">
@@ -84,9 +78,11 @@ permalink: /photos/
     <img src="{{ "/assets/img/83_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/49_KatieDougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/37_KatieDougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/84_Katie_DougWedding.jpg" | relative_url }}">
+    <img src="{{ "/assets/img/19_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/85_Katie_DougWedding.jpg" | relative_url }}">
+    <img src="{{ "/assets/img/02_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/86_Katie_DougWedding.jpg" | relative_url }}">
+
 
   </div>
 </div>
