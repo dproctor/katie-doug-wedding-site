@@ -74,8 +74,8 @@ permalink: /photos/
     <img src="{{ "/assets/img/53_KatieDougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/82_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/28_Katie_DougWedding.jpg" | relative_url }}">
-    <img src="{{ "/assets/img/29_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/83_Katie_DougWedding.jpg" | relative_url }}">
+    <img src="{{ "/assets/img/29_Katie_DougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/49_KatieDougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/37_KatieDougWedding.jpg" | relative_url }}">
     <img src="{{ "/assets/img/19_Katie_DougWedding.jpg" | relative_url }}">
