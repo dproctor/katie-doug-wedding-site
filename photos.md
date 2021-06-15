@@ -4,6 +4,14 @@ title: Photos
 permalink: /photos/
 ---
 
+<br>
+
+<div style="text-align: center">
+
+  <p class="blue-text big-text"> Photos from our June 20, 2020 wedding </p>
+
+</div>
+
 <p class="photo-creds"> <a href="https://www.jamesandschulze.com/info">Photos by Otto Schulze of James and Schulze.</a></p>
 
 <div class="row">
